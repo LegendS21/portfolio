@@ -31,8 +31,8 @@
             </ul>
           </div>
         </div>
-      </nav>
-      <section id="home" class="home container">
+    </nav>
+    <section id="home" class="home container">
         <div class="row d-flex align-items-center">
             <div class="col-8">
                 <h3 class="fw-semibold">Hi! i am</h3>
@@ -48,7 +48,7 @@
             <a class="text-decoration-none text-dark" href="#about">more info</a>
             <img id="arrow" class="mt-2" src="images/arrow.svg" alt="arrow icon">
         </div>
-      </section>
+    </section>
     <section id="about" class="about container">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe quisquam nostrum, praesentium sit commodi reprehenderit corrupti impedit in odit, ratione nisi? Consequatur voluptatibus praesentium eum provident, impedit sunt iure architecto enim tempora ad nesciunt voluptate cupiditate nihil eos quod beatae tenetur debitis temporibus voluptatum quasi incidunt veritatis ab officia.</p>
         <div class="about-exp">
@@ -99,6 +99,46 @@
           <div id="work-3" class="work-img-item">
             <img src="images/work-3.png" alt="work 3" >
           </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact container">
+      <div class="row d-flex align-items-center gap-5">
+        <div class="col">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat debitis neque nihil voluptas quia aperiam delectus voluptatum dignissimos laudantium, aut quasi at repudiandae, voluptate ratione eius dolorum qui fuga fugit libero architecto minima voluptates reiciendis? Quis, similique voluptate quam ullam veniam, rem accusantium velit magni minima aperiam voluptatum saepe exercitationem!</p>
+          <div class="row form-label">
+            <div class="col d-flex align-items-center ">
+              <img src="images/facebook.svg" alt="facebook icon">
+              <p>Melvin Sumardi</p>
+            </div>
+            <div class="col d-flex align-items-center ">
+              <img src="images/instagram.svg" alt="instagram icon">
+              <p>Melvin Sumardi</p>
+            </div>
+            <div class="col d-flex align-items-center ">
+              <img src="images/twitter.svg" alt="twitter icon">
+              <p>Melvin Sumardi</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <form class="form_contact" onsubmit="onformsubmit(event)">
+            <div class="mb-3">
+              <label for="inp_email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="inp_email" placeholder="Melvin@gmail.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="inp_subject" class="form-label">subject</label>
+              <input type="text" class="form-control" id="inp_subject" placeholder="your Subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="inp_massage" class="form-label">massage</label>
+              <input type="text" class="form-control" id="inp_massage" placeholder = "your Massage" required>
+            </div>
+            <div class="button_submit mt-5">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
     </section>

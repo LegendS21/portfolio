@@ -106,6 +106,23 @@ section::before{
 #work-3:hover::after{
     content: 'Gaming';
 }
+.contact::before{
+    content: 'Contact';
+}
+.form_contact{
+    border : 2px solid black;
+    padding: 32px 24px;
+}
+.button_submit{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    padding-bottom: 128px;
+}
+.form-label{
+    font-weight: 800;
+}
 @keyframes upDown {
     0% {
         transform: translateY(0);
